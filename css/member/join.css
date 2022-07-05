@@ -1,0 +1,161 @@
+/* join 1 */
+
+
+.main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;  
+    margin-bottom: 80px;
+}
+
+.main h2:nth-child(1) {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #222;
+}
+
+.main h2:nth-child(2) {
+    font-size: 14px;
+    color: #999;
+    padding-top: 5px;
+    margin-bottom: 45px;
+}
+
+.box1 {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    border: 1px solid black;
+    padding: 20px;
+    width: 1170px;
+    height: auto;
+}
+
+.box1 span:nth-child(1) {
+    font-size: 25px;
+    font-weight: 400;   
+}
+
+.box1 span:nth-child(2) {
+    font-size: 15px;
+}
+
+
+.joinbox {
+    border: 1px solid rgb(207, 49, 49);
+    margin: 20px;
+    padding:20px;
+    width: 1170px;
+    height: 250px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(206, 214, 212);
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.joinbox div:nth-child(1) {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    width: 60px;
+    height: 65px;
+    line-height: 26px;
+   
+}
+
+.joinbox div:nth-child(2) {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 300px;
+}
+
+#a {
+    margin-top: 11px;
+}
+.joinbox div:nth-child(3) {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50px;
+    padding-left: 10px;
+}
+
+#button1 {
+    width: 75px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(30, 107, 65);
+    font-weight: bold;
+    }
+
+
+/* join 2 */
+
+.joinmember {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+  .joinmember h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .joinmember p {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+  }
+
+.box {
+    border: 1px solid gray;
+    width: 1180px;
+    height: 85px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.box > h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(78, 78, 78);
+    margin-top: 5px;
+    text-align: left;
+}
+
+.box > p {
+    text-align: left;
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+    margin-top: 5px;
+}
+
+.box2 {
+    width: 1170px;
+    margin-top: 20px;
+}
+
+.box3 {
+    margin: 10px;
+    font-size: 14px;
+}
+
+#joinbutton {
+    margin:50px;
+    background-color: white;
+    border:none;
+}

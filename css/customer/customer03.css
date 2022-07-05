@@ -1,0 +1,112 @@
+/* FAQ */
+
+/* 상단바 */
+.faq {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+  .faq h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .faq p {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+  }
+
+  /* 테이블 */
+
+  .faqnotice {
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .faqnotice table {
+      width: 100%;
+      border-top: 2px solid black;
+    }
+
+    .faqnotice tr {
+      height: 50px;
+      border-bottom: 1px solid rgb(173, 172, 172);
+      cursor: pointer;
+    }
+
+    .faqnotice th {
+        text-align: center;
+        background-color: rgb(236, 236, 236);
+        width: 100px;
+    }
+
+    .faqnotice td:nth-child(2) {
+      text-align: left;
+      padding-left: 25px;
+    }
+
+    .faqnotice a:visited {
+        color:black;
+    }
+
+    .faqnotice a:link {
+        color: black;
+    }
+
+    .faqnotice a:hover {
+        color:black;
+        text-decoration: none;
+    }
+
+    .faqnotice td {
+      color: #777;
+      font-size: 14px;
+    }
+
+
+
+/* searchbar */
+.selectbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.sel {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.searchbar input[type=text] {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.but img {
+    width: 25px;
+    height: 28px;
+    object-fit: cover;
+
+}
+
+.but {
+    border: 0.3px solid gray;
+    background-color: rgb(255, 255, 255,1);
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}

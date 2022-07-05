@@ -1,0 +1,77 @@
+/* 제품안내01 */
+.product {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.image1 {
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+
+.img1 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.img1 p {
+    text-align: center;
+}
+
+.image2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.img2 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.img2 p {
+    text-align: center;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.sel {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.searchbar input[type=text] {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.but img {
+    width: 25px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.but {
+    border: 0.3px solid gray;
+    background-color: rgb(255, 255, 255,1);
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+

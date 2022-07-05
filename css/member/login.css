@@ -1,0 +1,107 @@
+/* 로그인 */
+
+.log {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    
+}
+
+.log h2:nth-child(1) {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #222;
+}
+
+.log h2:nth-child(2) {
+    font-size: 14px;
+    color: #999;
+    padding-top: 5px;
+    margin-bottom: 45px;
+}
+.loginbox {
+    border: 1px solid rgb(214, 212, 212);
+    width: 1000px;
+    height: 300px;
+    padding: 80px;  
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.alignrow {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.idpw {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    padding-top:8px;
+}
+
+.inp {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#a {
+    margin-bottom: 7px;
+}
+
+.alignrow input {
+    height: 20px;
+    width: 300px;
+
+}
+
+#button1 {
+    width: 80px;
+    height: 55px;
+    background-color: rgba(27, 129, 99, 0.8);
+    border-radius: 7px;
+    font-weight: bold;
+    border:none;
+}
+
+.searchbar {
+    display: flex;
+    flex-flow : row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sentence {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.button {
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+}
+
+#button2 {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 7px;
+    line-height: 10px;
+}
+
+
