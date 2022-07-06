@@ -1,9 +1,23 @@
-.companyMapTitle {
-  padding-top: 20px;
+.ad {
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 70%;
 }
-.companyMapTitle p {
+
+.dc {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.cb {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 100px;
   color: rgb(174, 174, 174);
 }
+
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;

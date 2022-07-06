@@ -23,6 +23,13 @@
       $('#header').load("/header.html");     
       $('#footer').load("/footer.html");
     });
+
+    function showpopup(){
+    window.open("idFind.html","ID찾기","width=450, height=380, top=10, left=10")
+  }
+  function showpopup2(){
+    window.open("passwordFind.html","Password찾기","width=450, height=380, top=10, left=10")
+  }
   </script>
 
 </head>
@@ -79,8 +86,8 @@
       </div>
 
        <div class="button">
-        <button id="button2">아이디찾기</button>
-        <button id="button2">비밀번호찾기</button>
+        <button id="button2" onclick="showpopup()">아이디찾기</button>
+        <button id="button2" onclick="showpopup2()">비밀번호찾기</button>
       </div>
   </div>
     </div>

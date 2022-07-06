@@ -25,6 +25,20 @@
     });
   </script>
 
+<script>
+
+  function agree() {
+      var check = document.getElementsByTagName('input');
+      for(i=0; i<check.length; i++) {
+        if(check[i].checked == false)
+        {alert("모두 체크되어 있지 않습니다."); return;}
+      };
+
+      window.open ("join3.html", "jon")
+       };
+
+</script>
+
 </head>
 <body>
   <!-- 헤더 -->
@@ -455,15 +469,10 @@
   </div>
 
     <div>
-      <button id="joinbutton"><img src="/img/member/btn_join.gif"></button>
+      <button id="joinbutton"><img src="/img/member/btn_join.gif" onclick="agree()"></button>
         </div>
 </div>
-      
-
   <!-- 회원가입 -->
-
-
-
   <!-- 푸터 -->
   <div id="footer"></div>
 

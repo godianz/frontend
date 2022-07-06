@@ -23,6 +23,12 @@
       $('#header').load("/header.html");     
       $('#footer').load("/footer.html");
     });
+
+    function listbutton (){
+      window.open("community01.html","이전화면");
+    }
+
+
   </script>
 
 </head>
@@ -90,12 +96,12 @@
   </nav>
 
   <!-- 공지사항 상세 -->
-  
-  <div>
+    
+   <div class="notice1">
     <h2>공지사항</h2>
     <p>The design and maintenance are excellent.</p>
     
-    <table class="NoticeContent">
+    <table class="content1">
     
       <tr>
        <th>제목</th>
@@ -103,7 +109,7 @@
       </tr>
     
       <tr>
-        <th>작성일</th>  
+        <th>작성일</th>
         <td>2022-07-01</td>
       </tr>
     
@@ -113,8 +119,9 @@
       
     </table>
     
-      <button><a href="">목록</a></button>
-    
+    <div class="listbut">
+      <img src="/img/community/list.gif" class="listbutton" onclick="listbutton()" style="cursor: pointer;">
+    </div>
     </div>
       
 

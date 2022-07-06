@@ -23,6 +23,10 @@
       $('#header').load("/header.html");     
       $('#footer').load("/footer.html");
     });
+
+    function product () {
+      alert ("검색어를 정확히 입력하세요.")
+    };
   </script>
 
 </head>
@@ -149,7 +153,8 @@
 
       <input type="text">
 
-      <button class="but" href="#"><img src="/img/product/search.gif"></a></button>
+      <button class="but" onclick="product()"><img src="/img/product/search.gif"></button>
+
   </div>
 
 
