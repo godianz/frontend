@@ -18,21 +18,6 @@
   color: rgb(174, 174, 174);
 }
 
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-}
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  position: absolute;
-
-  width: 100%;
-  height: 100%;
-
-  padding-bottom: 40px;
-}
 .companyMapContent {
   width: 100%;
   height: 150px;
