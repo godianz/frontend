@@ -1,43 +1,43 @@
-.companyMapTitle {
-  padding-top: 20px;
+.map {
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 70%;
 }
-.companyMapTitle p {
+
+.map h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.map {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 100px;
   color: rgb(174, 174, 174);
 }
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-}
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  position: absolute;
 
-  width: 100%;
-  height: 100%;
-
-  padding-bottom: 40px;
-}
 .companyMapContent {
   width: 100%;
   height: 150px;
   border-top: 3px solid black;
-
   font-size: 12px;
 }
+
 .companyMapContent table {
   width: 100%;
-  height: 100px;
+  height: 100%;
 }
 .companyMapContent tr {
   border-bottom: 1px solid rgb(232, 231, 231);
-  width: 200px;
+  width: 80%;
 }
 .companyMapContent th {
   text-align: center;
   border-right: 1px solid silver;
   background-color: rgb(245, 245, 245);
+  width: 20%;
 }
 .companyMapContent td {
   padding-left: 10px;

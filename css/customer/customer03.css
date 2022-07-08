@@ -1,4 +1,54 @@
 /* FAQ */
+.faq1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.faq1 h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.faq1 p {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.box {
+  width: 100%;
+  padding-left: 400px;
+}
+
+.box table {
+  border-top: 3px solid black;
+  width: 80%;
+}
+
+.box th {
+  background-color: rgb(231, 231, 231);
+  width: 20%;
+  height: 50px;
+  text-align: center;
+}
+
+.box tr {
+  border-bottom: 1px solid black;
+}
+
+.box td {
+ width: auto;
+ padding-left: 10px;
+}
+
+.box tr:nth-child(2) {
+  height: 100px;
+}
+
+.list1 {
+  text-align: center;
+  margin: 50px;
+}
+
 
 /* 상단바 */
 .faq {
@@ -109,4 +159,23 @@
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .business-wrap{
+      width:100%;
+      padding:10px;
+      box-sizing: border-box;       
+  }
+
+}
+/* 모바일 */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+/* product */
+.business-wrap{
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;   
+  }
 }

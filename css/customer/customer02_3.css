@@ -1,0 +1,49 @@
+.input {
+    margin:10px;
+    width: 440px;
+    height: 330px;
+}
+
+.pw {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 0 0 10px;
+}
+
+.sentence1 {
+    width: 100%;
+    height: 80px;
+    padding: 30px 0 0 5px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.pwbox {
+    background-color: #f6f3f0;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0px;
+}
+
+.pwbox input {
+    width: 200px;
+    height: 20px;
+}
+
+.confirmbutton {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.closebutton {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+}

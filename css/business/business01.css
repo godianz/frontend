@@ -1,8 +1,75 @@
-.bd { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; width: 1020px;}
-.so-001 { text-align: center; padding: 30px 0 5px 0; font-size: 32px;}
-.so-002 { text-align: center; padding: 5px 0 50px 0; font-size: 16px; color: #aaa;}
-.so-003 { text-align: center; padding: 10px 0 10px 0; font-size: 28px; font: 100; color: rgb(41, 40, 40);}
-.so-004 { text-align: center; padding: 10px 0 50px 0;}
-.so-005 { margin: 50px;}
-.so-006 { margin: 0 0 10px 50px; font-size: 18px;}
-.so-007 { margin: 0 0 10px 50px; font-size: 14px; color: #aaa;}
+.busi-part h2 { 
+    text-align: center; 
+    padding: 30px 0 5px 0; 
+    font-size: 32px;
+} 
+
+.busi-part p { 
+    text-align: center; 
+    padding: 5px 0 50px 0; 
+    font-size: 16px; 
+    color: #aaa;
+}
+
+.busi-part1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.busi-part1 h2 { 
+    text-align: center; 
+    padding: 10px 0 10px 0; 
+    font-size: 26px; 
+    font: 100; 
+    color: rgb(41, 40, 40);
+}
+
+.busi-part1 h5 { 
+    text-align: center; 
+    padding: 10px 0 50px 0;
+    font-size: 16px;
+    font-weight: lighter;
+} 
+
+.busi_title { 
+    font-size: 18px;
+    padding: 10px;
+}
+.busi_text { 
+    font-size: 14px; 
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.business-wrap{
+    width:900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.business-wrap img{
+    width:100%;
+}
+
+
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .business-wrap{
+        width:100%;
+        padding:10px;
+        box-sizing: border-box;       
+    }
+
+}
+/* 모바일 */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  /* product */
+  .business-wrap{
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;   
+    }
+}
