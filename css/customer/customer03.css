@@ -160,3 +160,22 @@
     height: 30px;
     margin-left: 10px;
 }
+
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .business-wrap{
+      width:100%;
+      padding:10px;
+      box-sizing: border-box;       
+  }
+
+}
+/* 모바일 */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+/* product */
+.business-wrap{
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;   
+  }
+}

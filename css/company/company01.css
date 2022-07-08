@@ -1,8 +1,13 @@
 /*  회사 개요 */
+.company-outline{
+    width:100%; 
+    position: relative;
+}
 
 .com-summary {
     margin: 0 auto;
     text-align: center;
+    margin: 50px;
  
   }
   .com-summary h2 {
@@ -14,6 +19,7 @@
 
   .com-explain {
     text-align: center;
+    margin: 50px;
   }
   .com-explain h5 {
     font-size: 30px;
@@ -25,56 +31,49 @@
 }
     .img-promise {
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center; 
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding:60px;
+    flex-flow:row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+
 }
+
     .com-outline {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     width: 100%;
-    height: 450px;
+    padding:20px;
+    box-sizing: border-box;
 }
     .image {
-    position: relative;
     overflow: hidden;
     width: 50%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: flex-end;
-    justify-content: center;
-    padding-right: 20px;
+    box-sizing: border-box; 
+    padding: 50px 50px 50px;
+    padding-left: 280px;
+
 }
     .more {
     width: 600px;
     height: 420px;
+    overflow: hidden;
 }
-    .com-img1 {
-    width: 600px;
-    height: 420px;
-}
+
     .explain {
-    position: relative;
     overflow: hidden;
     width: 50%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    padding-left: 20px;
+    box-sizing: border-box;
+    padding: 50px 380px 50px 50px;
+    flex-wrap: wrap;
+    position: relative;
 }
-    .more1 {
-    width: 550px;
-    height: 400px;
-}
+
     .more1 li {
     padding: 8px;
     font-size: 14px;
 }
     .more1 p {
-        font-size: 17px;
+    font-size: 17px;
     }
     .explain h2 {
     font-size: 25px;
@@ -86,9 +85,9 @@
 /* 비전 */
     .vision {
     width: 100%;
-    position: relative;
-    overflow: hidden;
-    margin: 0 0 100px 0;
+    box-sizing: border-box;
+    margin-bottom:100px;
+    position:relative;
     }
 
     .vi-outline {
@@ -113,11 +112,11 @@
         background-color: rgb(250, 248, 248);
         text-align: center;
         display: flex;
-        flex-flow: column;
+        flex-flow: column wrap;
         justify-content: center;
         align-items: center;
-        padding:10px 10px 10px 10px;
-        margin: 10px 10px 10px 10px;
+        padding:10px;
+        margin: 10px;
     }
 
     .img1 h3 {
@@ -132,7 +131,8 @@
 
     .img-box {
         display: flex;
-        flex-flow: row;
+        flex-flow: row ;
+
         align-items: center;
         justify-content: center;
     }
@@ -183,3 +183,60 @@
         .box {
             width: 100%;
         }
+
+        .line {
+            border: 1px dotted rgb(214, 214, 214);
+        }
+
+        
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    
+    .company-outline{
+        width:100%;
+    }
+
+    .com-outline {
+        flex-flow: row wrap;
+        padding:0;
+        margin:0;
+      
+    }
+    .img-promise{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .more{
+        overflow: hidden;
+    }
+
+    .image {
+        
+        overflow: hidden;
+        width: 100%;
+    }
+    .explain {
+        width: 100%;
+
+        display: flex; 
+        flex-flow: column wrap;
+    }
+
+    .img1 {
+        width: 20%;
+    }
+
+    .vision {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* 모바일 */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+    
+}

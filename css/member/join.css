@@ -95,7 +95,26 @@
     font-weight: bold;
     }
 
+    #email-check {
+        color: white;
+        text-decoration: none;
+    }
 
+    #email-check a:link {
+        color:white;
+        text-decoration: none;
+    }
+
+    #email-check a:visited {
+        color: white;
+    }
+
+   #email-check a:hover {
+        color:white;
+        text-decoration: none;
+    }
+
+  
 /* join 2 */
 
 .joinmember {

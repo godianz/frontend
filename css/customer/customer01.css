@@ -41,6 +41,11 @@
     border: 1px solid rgb(126, 123, 123);
 }
 
+.button {
+    margin: 20px 0 70px 20px;
+    text-align: center;
+}
+
 
 /* 테블릿 */
 @media screen and (min-width: 768px) and (max-width: 959px) {
