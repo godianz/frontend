@@ -319,7 +319,7 @@
 /* 섹션5 */
 
 .section4 {
-  background-image: url('/img/visual04.jpg');
+  background-image: url('../img/visual04.jpg');
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
